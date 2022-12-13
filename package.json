@@ -1,0 +1,34 @@
+{
+  "name": "lotr-character-finder",
+  "version": "1.0.0",
+  "description": "finds information about LOTR characters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjedgecombe/rpp2209-mvp.git"
+  },
+  "author": "CJ Edgecombe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjedgecombe/rpp2209-mvp/issues"
+  },
+  "homepage": "https://github.com/cjedgecombe/rpp2209-mvp#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
