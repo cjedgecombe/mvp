@@ -1,5 +1,8 @@
 ### node etc ###
 
+# Access Keys / Sensitive Info
+LOTR.config.js
+
 # Logs
 logs
 *.log
