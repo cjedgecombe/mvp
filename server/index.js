@@ -42,6 +42,10 @@ app.post('/characters', (req, res) => {
             console.log(data);
             res.status(201).send(data);
           })
+          .catch((err) => {
+            console.log('Saving error', err);
+            res.status(404).send('character lookup failed');
+          })
 
         }
       })

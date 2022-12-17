@@ -12,7 +12,7 @@ CREATE TABLE characters(
   hair VARCHAR(20) NOT NULL,
   height VARCHAR(20) NOT NULL,
   spouse VARCHAR(20) NOT NULL,
-  realm VARCHAR(20) NOT NULL,
+  realm VARCHAR(50) NOT NULL,
   wikiUrl VARCHAR(200) NOT NULL,
   UNIQUE (name)
 )
