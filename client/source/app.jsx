@@ -38,9 +38,8 @@ const App = () => {
   }
 
   return (
-    // characterInfo component goes here
     <div>
-    <div>{lookupState}</div>
+    <h3>{lookupState}</h3>
     <CharacterInfo charDetails={charState}></CharacterInfo>
 
     <input type="text" placeholder="Character Name" value={textState} onChange={textChangeHandler}/>

@@ -1,5 +1,6 @@
 import React from 'react';
 import App from './app.jsx';
+import './styles.css';
 
 const CharacterInfo = (props) => {
 
